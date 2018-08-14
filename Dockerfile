@@ -1,4 +1,4 @@
-FROM index.aldua.cn/yugougou/fromalauda:lastest
+FROM yugougou/fromalauda:lastert
 COPY bin/main /main
 RUN chmod +x /main
 ENTRYPOINT [ "/main" ]
